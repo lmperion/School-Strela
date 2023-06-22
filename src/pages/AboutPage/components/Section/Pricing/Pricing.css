@@ -1,0 +1,152 @@
+.pricing {
+    padding: 100px 0;
+}
+
+.pricing_content {
+    display: flex;
+}
+
+.pricing_card {
+    padding: 40px;
+    background-color: #132238;
+    position: relative;
+}
+
+.non_premium_card {
+    margin-top: 40px;
+}
+
+
+.pricing_discount {
+    background-color: #349BFF;
+    padding: 10px 20px;
+    font-weight: 300; 
+    color: white;
+    position: absolute;
+    top: -15px;
+    right: 40px
+}
+
+
+.pricing_card h3 {
+    font-size: 22px;
+    color: white;
+    margin: 40px 0 20px;
+    font-weight: 600;
+}
+
+.pricing_cost {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF26;
+    margin-bottom: 20px;
+}
+
+.pricing_cost h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+.pricing_cost span {
+    color: #9BA4B4;
+    font-weight: 300;
+}
+
+.pricing_card_positive  {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing_card_positive li {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.pricing_card_positive svg {
+    margin: auto 0;
+}
+
+.pricing_card_positive p {
+    margin: 0;
+    color: white;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.pricing_card_minus p {
+    color: #5E5E5E;
+}
+
+.pricing_card a {
+    background-color: #349BFF;
+    text-align: center;
+    width: 100%;
+    padding: 20px 42px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .5s,border .5s,border-radius .5s,box-shadow .5s;
+}
+
+.pricing_card a:hover {
+    background-color: #2E8CE6;
+    transition: all 0.5s ease;
+}
+
+.pricing_descriprion h5 {
+    color: #349BFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pricing_descriprion h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pricing_descriprion p {
+    color: #9BA4B4;
+    font-weight: 300;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 20px;
+}
+
+.pricing_descriprion_info {
+    display: flex;
+}
+
+.info-garante,
+.info-support {
+    width: 50%;
+}
+
+.info-support {
+    padding-left: 5px;
+}
+
+.info-garante svg,
+.info-support svg {
+    margin-bottom: 15px;
+}
+
+.info-garante h2,
+.info-support h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.info-garante p, 
+.info-support p {
+    color: #9BA4B4;
+    font-weight: 300;
+}

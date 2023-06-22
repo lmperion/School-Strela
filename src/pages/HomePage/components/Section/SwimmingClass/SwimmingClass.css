@@ -1,0 +1,30 @@
+.swimming_class {
+    padding: 170px 0 100px;
+    
+}
+
+.swimming_class h5 {
+    font-size: 18px;
+    color: #349BFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.swimming_class h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.swimming_class p {
+    color: #9BA4B4;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0 226px;
+}
+
+.swimming_class_cards {
+    display: flex;
+    position: relative;
+}

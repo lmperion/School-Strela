@@ -1,0 +1,41 @@
+.promo {
+    background-image: url("../../../img/promoBg.jpg");
+    transition: background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 300px 0px 200px 0px;
+    z-index: 0;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.promo_overlay {
+    background-color: #394F70C4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    opacity: 0.7;
+    transition: background 0.5s, border-radius 0.5s, opacity 0.5s;
+}
+
+.promo_info {
+
+}
+
+
+.promo_tittle {
+    font-size: 80px;
+    color: white;
+    margin: 0;
+    text-align: end;
+}
+
+
+.promo_desription {
+    font-size: 18px;
+    color: white;
+    text-align: end;
+    margin-top: 30px;
+}

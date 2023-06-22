@@ -1,0 +1,69 @@
+.positive_comments {
+    padding: 100px 0;
+  
+}
+
+.positive_comments h5 {
+    font-size: 18px;
+    color: #349BFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.positive_comments h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.positive_comments p {
+    color: #9BA4B4;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0% 20% 0% 20%;
+}
+
+.positive_comments_content_row {
+    display: flex;
+}
+
+.positive_comments_content_row .col-lg-3 {
+    padding: 0;
+    margin: auto;
+}
+
+.row_img_1,
+.row_img_2 {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row_img_1 {
+    background-image: url("https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/little-boy-learning-to-swim-e1645056082187.jpg");
+    background-position: 26% 0px;
+}
+
+.row_img_2 {
+    background-image: url("https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/little-girl-learning-to-swim-in-the-pool-e1645056092923.jpg");
+    background-position: 73% 0px;
+}
+
+.row_comments {
+    padding: 0 30px;
+}
+
+.row_comments p {
+    padding: 0;
+    text-align: start;
+    font-style: italic;
+}
+
+.row_comments h2 {
+    font-size: 18px;
+    margin: 0;
+    text-align: start;
+}

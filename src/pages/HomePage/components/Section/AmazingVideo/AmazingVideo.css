@@ -1,0 +1,98 @@
+.amazing_video {
+    background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/girls-swimming-in-pool-e1645056002143.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.amazing_video_overlay {
+    background-color: #394F70C4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.amazing_video_info {
+    margin-bottom: -30%;
+    padding: 80px;
+    background-color: #132238;
+}
+
+.amazing_video_info h5 {
+    font-size: 18px;
+    color: #349BFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.amazing_video_info h2 {
+    color:white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.amazing_video_span {
+    display: flex;
+    border-bottom: 1px solid #FFFFFF12;
+    margin-bottom: 20px;
+}
+
+.amazing_video_span span {
+    color: white;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.amazing_video_info p {
+    color: #9BA4B4;
+    margin-bottom: 35px;
+}
+
+.amazing_video_media {
+    display: flex;
+}
+
+.amazing_video_media img {
+    max-width: 158px;
+}
+
+.amazing_video_media .amazing_video_play {
+    background-color: #349BFF;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+    position: relative;
+    transition: background .5s,border .5s,border-radius .5s,box-shadow .5s;
+}
+
+.amazing_video_media .amazing_video_play:hover {
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.amazing_video_play span {
+    background-image: url(../../../img/icons8-play-48-white.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.amazing_video_play:hover span {
+    background-image: url(../../../img/icons8-play-48-blue.png);
+}
+
+
+.amazing_video_media a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin: auto 0;
+}

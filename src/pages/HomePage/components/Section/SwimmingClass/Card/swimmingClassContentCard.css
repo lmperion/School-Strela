@@ -1,0 +1,69 @@
+.swimming_class_content_card_header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.swimming_class_content_card_header img {
+    max-width: 340px;
+    /* height: 357px; */
+}
+
+.swimming_class_content_card_header div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 14px 25px 5px 22px;
+    background-color: white;
+}
+
+.swimming_class_content_card_header span {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.swimming_class_content_card_header h6 {
+    margin: 0;
+    color: #9BA4B4;
+    font-weight: 400;
+}
+
+.swimming_class_content_card_info ul{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.swimming_class_content_card_info li {
+    margin-right: 10px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.swimming_class_content_card_info svg {
+    margin-right: 10px;
+}
+
+.swimming_class_content_card h2 {
+    font-size: 28px;
+    text-align: start;
+}
+
+.swimming_class_content_card p {
+    padding: 0;
+    color: #9BA4B4;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.swimming_class_content_card a {
+    color: #349BFF;
+    font-weight: 600;
+    text-decoration: none;
+    margin: auto 0;
+    transition: all 0.5s ease;
+}
+
+.swimming_class_content_card a:hover {
+    transition: all 0.5s ease;
+    color: #0056b3;
+}

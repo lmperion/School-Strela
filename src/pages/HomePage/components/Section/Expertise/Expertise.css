@@ -1,0 +1,125 @@
+.expertise {
+    display: flex;
+}
+
+.expertise_content_left {
+    background-color: #132238;
+    padding: 9%;
+    width: 50%;
+}
+
+.expertise_content_left h5 {
+    font-size: 18px;
+    color: #349BFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.expertise_content_left h2 {
+    color:white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.expertise_content_left p {
+    color: #9BA4B4;
+    margin-bottom: 50px;
+}
+
+.expertise_content_left a {
+    background-color: #349BFF;
+    padding: 20px 42px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .5s,border .5s,border-radius .5s,box-shadow .5s;
+}
+
+.expertise_content_left a:hover {
+    background-color: #2E8CE6;
+    transition: all 0.5s ease;
+}
+.expertise_content_info {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.expertise_content_left_stats {
+    width: 50%;
+}
+
+.expertise_content_right_stats {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.expertise_content_right_circularProgressbar,
+.expertise_content_left_circularProgressbar {
+    width: 150px;
+    height: 150px;
+    font-weight: 700;
+}
+
+.expertise_content_left_stats h2,
+.expertise_content_right_stats h2 {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.expertise_content_left_stats p,
+.expertise_content_right_stats p {
+    color: #9BA4B4;
+    margin-bottom: 15px;
+}
+
+.expertise_content_right {
+    width: 50%;
+    background-image: url("https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/swimming-school-cute-little-boy-having-fun-with-swimming-instru-1-e1645056156392.jpg");
+    background-position: 0% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.expertise_content_right_overlay {
+    background-color: #394F70C4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.expertise_content_right_content {
+    width: 50%;
+    background-color: white;
+    padding: 5%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.expertise_content_right_content h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.expertise_content_right_content p {
+    color: #9BA4B4;
+    margin-bottom: 15px;
+}
+
+.expertise_content_right_content a {
+    color: #349BFF;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.expertise_content_right_content a:hover {
+    color: #2E8CE6;
+    transition: all 0.5s ease;
+}

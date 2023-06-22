@@ -1,0 +1,59 @@
+.positive {
+    padding-top: 100px;
+    
+}
+
+.positive h5 {
+    font-size: 18px;
+    color: #349BFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.positive h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.positive p {
+    color: #9BA4B4;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0 226px;
+}
+
+.positive ul {
+    padding: 0;
+}
+
+.positive_moment {
+    display: flex;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 226px;
+}
+
+.positive_moment ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.positive_moment li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin: auto 0;
+}
+
+.positive_moment p {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    font-weight: 300;
+}

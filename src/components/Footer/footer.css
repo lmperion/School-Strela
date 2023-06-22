@@ -1,0 +1,188 @@
+
+.footer {
+    background-color: #E1ECF7;
+    /* padding: 10px; */
+    position: relative;
+} 
+
+.footer_overlay {
+    background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/swimmer-under-water-in-swimming-pool-e1645056285921.jpg);
+    background-position: 0% 82%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.05;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_info {
+    display: flex;
+    border-bottom: 1px solid #FFFFFF3B;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+}
+
+.banner_info {
+    /* width: 100%; */
+    background-color: #132238;
+    margin-right: 20px;
+    padding: 55px 0;
+    margin-top: -13%;
+}
+
+.banner_logo {
+    text-align: center;
+}
+
+.banner_logo img {
+    width: 200px;
+    height: 44px;
+    margin: auto;
+}
+
+.banner_description {
+    font-size: 15px;
+    color: #9BA4B4;
+    /* max-width: 290px; */
+    /* padding: 0 20px; */
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    margin: 15px 20px 35px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.banner_social_picture {
+    text-align: center;
+}
+
+/*  Штука позволяющая отображать картинки Хидера и Футера, стоял автоматом border-box, после добавление bootstrap */
+/* *, ::after, ::before {
+    box-sizing: content-box;
+} */
+
+.banner_social_picture ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.banner_social_picture img {
+width: 15px;
+height: 15px;
+/* padding: 10px 10px; */
+/* border: 1px solid #9BA4B4; */
+}
+
+.footer_info_links {
+    display: flex;
+    
+}
+
+.quick_links {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    width: 182px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.support {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    /* width: 168px; */
+    padding-top: 40px;
+    margin: 0;
+}
+.footer_info_links ul {
+    padding: 0;
+    margin: 0;
+}
+
+.banner_social_picture li {
+    border: 1px solid #FFFFFF12;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.support_item,
+.quick_links_item {
+    font-size: 15px;
+    padding: 5px 0px;
+    list-style-type: none;
+    font-weight: 300;
+}
+
+.subscribe {
+    padding: 40px 0 0 40px;
+}
+
+.subscribe_header {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.subscribe_descriprion {
+    /* width: 300px; */
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.quick_links_info svg, 
+.support_item svg {
+    margin-right: 20px;
+}
+
+.accept_subscribe {
+    display: flex;
+}
+
+.subscribe input {
+    font-weight: 300;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px; 
+}
+
+.subscribe button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    background-color: #349BFF;
+    border-top-right-radius: 25px; 
+    border-bottom-right-radius: 25px;
+    transition: background .5s,border .5s,border-radius .5s,box-shadow .5s;
+} 
+
+.subscribe button:hover {
+    background-color: #2E8CE6;
+    transition: all 0.5s ease;
+} 
+
+.subscribe button:focus {
+  outline: none;
+} 
+
+.footer_down {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}

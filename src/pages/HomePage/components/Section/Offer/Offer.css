@@ -1,0 +1,102 @@
+.offer {
+    padding: 80px 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 0;
+}
+
+.offer_overlay {
+    background-color: #132238;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.info_offer {
+    color: white;
+    display: flex;
+}
+
+.info_offer_navigation {
+    /* padding: 10px; */
+}
+
+.info_offer_navigation h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.info_offer_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_offer_panel {
+    display: flex;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.info_offer_panel:first-child {
+    margin-left: 0;
+}
+
+.info_offer_panel a{
+    font-size: 20px;
+    color:white;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(52,155,255,0.3);
+    padding-bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+.info_offer_panel:first-child a {
+    border-bottom: 2px solid #349BFF;
+    transition: all 0.5s ease;
+}
+
+.info_offer_panel:hover a{
+    border-bottom: 2px solid #349BFF;
+    
+}
+
+.info_offer_stats {
+    display: flex;
+    /* padding: 10px; */
+    margin-left: 70px;
+    height: 100%;
+    align-items: center;
+}
+
+.info_offer_stats_students,
+.info_offer_stats_trainer {
+    width: 50%;
+    text-align: end;
+}
+
+.info_offer_stats p {
+    font-size: 50px;
+    margin: 0;
+}
+
+.info_offer_stats span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #349BFF;
+    padding: 15px 0 15px 10px;
+}
+
+.info_offer_stats .titte_students,
+.info_offer_stats .titte_trainer {
+    font-size: 18px;
+    color: #9BA4B4;
+}
+
+.stats_number {
+    display: flex;
+    justify-content: flex-end;
+}

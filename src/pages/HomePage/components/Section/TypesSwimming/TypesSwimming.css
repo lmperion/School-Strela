@@ -1,0 +1,140 @@
+.types_swimming {
+    display: flex;
+    position: relative;
+    height: 90vh;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.types_swimming_overlay {
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    transform: scale(1.1,1.1);
+    transition: all .7s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+    /* background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/little-boy-swimming-in-pool-kid-in-glass-learning-swim-by-crawls-sport-and-hardening--e1645056167205.jpg); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.bg-first,
+.bg-second,
+.bg-third,
+.bg-fourth  {
+    transition: all .7s ease;
+    opacity: 1;
+    transform: scale(1,1);
+}
+
+ .bg-first { 
+    /* background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/little-boy-swimming-in-pool-kid-in-glass-learning-swim-by-crawls-sport-and-hardening--e1645056167205.jpg); */
+}
+
+.bg-second {
+  
+    /* background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/boy-dives-in-swimming-pool-with-swimming-glasses-boy-swims-in-the-pool-child-learning-to-swim-e1645056180244.jpg); */
+}
+
+.bg-third {
+  
+    /* background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/learning-to-swim-e1645056191792.jpg); */
+}
+
+.bg-fourth {
+    
+    /* background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/children-learning-to-swim-1-e1645056204280.jpg); */
+}
+
+.type_swimming {
+    /* height: 90vh; */
+    width: 25%;
+    z-index: 1;
+    /* padding: 40px 10px 40px 20px; */
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    border-right: 1px solid rgba(255,255,255,.3);
+    position: relative;
+}
+
+/* .type_swimming:hover .types_swimming_overlay {
+    opacity: 1;
+    transform: scale(1.1,1.1);
+    transition: all .7s ease;
+} */
+
+
+.type_swimming_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.type_swimming:last-child {
+    border-right: none;
+}
+
+.type_swimming p {
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+.type_swimming:hover p {
+    color: black;
+}
+
+.type_swimming_content {
+    padding: 40px 10px 40px 20px;
+}
+
+.type_swimming_content {
+    position: relative;
+}
+
+.type_swimming_content_overlay {
+    width: 100%;
+    height: 0;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.type_swimming .type_swimming_content_overlay {
+    height: 0;
+    width: 100%;
+    transition: all 0.4s ease;;
+}
+
+.type_swimming:hover .type_swimming_content_overlay {
+    /* background-color: white; */
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+
+/* .type_swimming:hover .type_swimming_content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: white;
+    /* z-index: -1; */
+    /* transition: all .4s; */

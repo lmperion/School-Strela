@@ -1,0 +1,144 @@
+
+.last_news {
+    padding: 100px 0 170px;
+}
+
+.last_news_content {
+    display: flex;
+}
+
+.last_news h5 {
+    font-size: 18px;
+    color: #349BFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.last_news h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.last_news_link a {
+    text-decoration: none;
+}
+
+.last_news_link  img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.last_news_link span {
+    font-size: 15px;
+    color: #349BFF;
+    font-weight: 300;
+}
+
+.last_news_link h3 {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.last_news_span {
+    display: flex;
+    margin: 0.5em 0;
+}
+
+.last_news_span svg {
+    margin: auto 0;
+    margin-right: 10px;
+}
+
+.last_news_span span {
+    font-size: 15px;
+    color: #BAC1C4;
+    font-weight: 300;
+}
+
+.last_news_description {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: #9BA4B4;
+}
+
+.last_news .last_news_info_link {
+    color: #349BFF;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.last_news .last_news_info_link:hover {
+    transition: all 0.5s ease;
+    color: #0056b3
+}
+
+.recent_news {
+    padding: 50px;
+    background-color: #132238;
+}
+
+.recent_news h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.recent_news_link {
+    padding-bottom: 27px;
+}
+
+.recent_news_link a {
+    text-decoration: none;
+}
+
+.recent_news_link p {
+    color: white;
+    font-size: 17px;
+    text-align: start;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.recent_news_date {
+    display: flex;
+}
+
+.recent_news_date svg {
+    margin: auto 0;
+    margin-right: 10px;
+}
+
+.recent_news_date span {
+    font-size: 15px;
+    color: #5C6575;
+    font-weight: 300;
+}
+
+.recent_news .recent_news_button {
+    display: inline-block;
+    color:white;
+    font-weight: 600;
+    padding: 18px 0;
+    background-color: #349BFF;
+    border-radius: 50px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    transition: background .5s,border .5s,border-radius .5s,box-shadow .5s;
+}
+
+.recent_news .recent_news_button:hover {
+    background-color: #2E8CE6;
+    transition: all 0.5s ease;
+}

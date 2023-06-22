@@ -1,0 +1,178 @@
+.skills {
+    padding-top: 100px;
+    background-image: url(https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/underwater-picture-of-male-swimmer-swimming-i-swimming-pool-e1645056379772.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+    position: relative;
+    z-index: 0
+}
+
+.skills_overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #132238B5;
+    opacity: 0.9;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    z-index: -1;
+}
+
+.skills_content h5 {
+    color: #349BFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills_content h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills_content p {
+    color: #9BA4B4;
+    font-weight: 300;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.skills_stats {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    margin: 10px 0;
+}
+  
+.progress-bar .progress {
+    --time: 1s; /** Значение по умолчанию для времени анимации **/
+    background: #349BFF;
+    width: 100%;
+    height: 100%;
+    transform-origin: left top;
+    transform: scaleX(0);
+    animation: scale var(--time) forwards;
+}
+
+.stats_left .progress_block:nth-child(even) .progress  {
+    background: #E1ECF7;
+}
+
+.stats_right .progress_block:nth-child(odd) .progress  {
+    background: #E1ECF7;
+}
+  
+@keyframes scale {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress_block {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.progress_block span{
+    color: white;
+    font-weight: 600;
+    text-align: end;
+}
+
+.value_progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: scale var(--time) forwards;
+}
+
+.skills_news {
+    display: flex;
+}
+
+.news_content {
+    padding: 40px;
+    background-color: #132238;
+    margin-bottom: -130px;
+}
+
+.news_content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.news_content span {
+    font-size: 15px;
+    font-weight: 300;
+    color: #349BFF;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.news_content p {
+    font-weight: 300;
+    color: #9BA4B4;
+    margin-bottom: 15px;
+}
+
+.skills_news .news_content a {
+    text-decoration: none;
+    color: #349BFF;
+    font-weight: 600;
+    transition: all .3s;
+    display: inline-block;
+}
+
+.skills_news .news_content .white_link {
+    color: white;
+}
+
+
+.skills_news .news_content a:hover {
+    cursor: pointer;
+    color: #2E8CE6;
+    transition: all .3s;
+    transform: translateY(8px); 
+}
+
+.skills_news .news_content .white_link {
+    color: white;
+}
+.skills_news .news_content .white_link:hover {
+    color: #C8D7E6;
+}
+
+
+.news_content_bg_white {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.skills_news .news_content_text_white {
+    color: white;
+}
+.skills_news .news_content_text_black {
+    color: black;
+}
+
+.news_content_bg_blue {
+    background-color: #349BFF;
+}

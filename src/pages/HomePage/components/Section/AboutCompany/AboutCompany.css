@@ -1,0 +1,144 @@
+.about_company {
+    padding: 100px 0;
+}
+
+.about_company_container {
+    display: flex;
+}
+
+.courses {
+    display: flex;
+}
+
+.courses  img {
+    object-fit: cover;
+}
+
+.courses_description {
+    padding: 25px 25px 25px 35px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1)
+}
+
+.courses_description h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.courses_description p {
+    color: #9BA4B4;
+    margin-bottom: 15px;
+}
+
+.courses_description a,
+.info_instructor a {
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}
+
+.courses_info {
+    display: flex;
+    margin-top: 40px;
+}
+
+.info_instructor {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.info_instructor_header img {
+    width: 60px;
+    margin-bottom: 13px;
+    transition-duration: .5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.info_instructor_header:hover img {
+    transform: translateY(-8px);
+}
+
+.info_instructor_header h3 {
+    margin-bottom: 13px;
+    font-size: 22px;
+}
+
+.info_instructor_header:hover h3 {
+    color: #349BFF;
+}
+
+.right_description {
+    margin-left: 50px;
+}
+
+.info_instructor p {
+    color: #9BA4B4;
+    margin-bottom: 18px;
+}
+
+.info_instructor a:hover {
+    transition: all 0.5s ease;
+}
+
+.right_description h5 {
+    font-size: 18px;
+    color: #349BFF;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+.right_description h2 {
+    font-size: 50px;
+    margin-bottom: 20px
+}
+
+.right_description p {
+    color: #9BA4B4;
+    margin-bottom: 35px;
+}
+
+.positive_moments {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.positive_moments ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.positive_moments li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.positive_moments svg {
+    margin: auto 0;
+}
+
+.positive_moments p {
+    margin: 0;
+    color: black;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.right_description a {
+    background-color: #349BFF;
+    padding: 20px 42px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .5s,border .5s,border-radius .5s,box-shadow .5s;
+}
+
+.right_description a:hover {
+    background-color: #2E8CE6;
+    transition: all 0.5s ease;
+}
