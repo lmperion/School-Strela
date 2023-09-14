@@ -75,18 +75,21 @@
 .social_list {
     opacity: 0;
     transition: all .4s ease;
+    height: 0;
 }
 
 .instructor_left:hover .social_list {
     opacity: 1;
     transform: translateY(-50px);
     transition: all .4s ease;
+    height: 100%;
 }
 
 .instructor-right:hover .social_list {
     opacity: 1;
     transform: translateY(-50px);
     transition: all .4s ease;
+    height: 100%;
 }
 
 .our_instructors_description h5 {
@@ -97,7 +100,7 @@
 }
 
 .our_instructors_description h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
 }

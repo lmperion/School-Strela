@@ -17,22 +17,29 @@
     text-align: center;
 }
 
+.position_Col {
+    margin: 0 auto;
+}
+
 .positive p {
     color: #9BA4B4;
     margin-bottom: 35px;
     text-align: center;
-    padding: 0 226px;
+    /* padding: 0 226px; */
 }
 
 .positive ul {
+    display: flex;
     padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .positive_moment {
     display: flex;
     margin-bottom: 40px;
     text-align: center;
-    padding: 0 226px;
+    /* padding: 0 226px; */
 }
 
 .positive_moment ul {
@@ -51,7 +58,11 @@
     margin: auto 0;
 }
 
-.positive_moment p {
+.description {
+    width: 100%;
+}
+
+.description p {
     margin: 0;
     padding: 0;
     padding-left: 10px;

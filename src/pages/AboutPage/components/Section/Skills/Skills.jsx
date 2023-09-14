@@ -10,29 +10,29 @@ export const Skills = () => {
             <div className='skills_overlay' />
             <Container>
                 <div className='skills_content'>
-                    <h5>Our Expertise</h5>
-                    <h2>Our Skills & Experience</h2>
+                    <h5>Наш опыт</h5>
+                    <h2>Наши навыки и опыт</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam dolore aliqua.</p>
                 </div>
                 <div className='skills_stats'>
                     <Col lg={{span:6}}>
                         <div className='stats_left'>
                             <div className='progress_block'>
-                                <span>Completed Courses</span>
+                                <span>Наши навыки и опыт</span>
                                 <span className='value_progress' style={{width: '75%', "--time": "5s"}}>75%</span>
                                 <div class='progress-bar'>
                                     <div class='progress' style={{maxWidth: '75%', "--time": "5s"}}></div>
                                 </div>
                             </div>
                             <div className='progress_block'>
-                                <span>Completed Courses</span>
+                                <span>Развитие навыков плавания</span>
                                 <span className='value_progress' style={{width: '82%', "--time": "5s"}}>82%</span>
                                 <div class='progress-bar'>
                                     <div class='progress' style={{maxWidth: '82%', "--time": "5s"}}></div>
                                 </div>
                             </div>
                             <div className='progress_block'>
-                                <span>Completed Courses</span>
+                                <span>Подготовка к соревнованиям</span>
                                 <span className='value_progress' style={{width: '78%', "--time": "5s"}}>78%</span>
                                 <div class='progress-bar'>
                                     <div class='progress' style={{maxWidth: '78%', "--time": "5s"}}></div>
@@ -43,21 +43,21 @@ export const Skills = () => {
                     <Col lg={{span:6}}>
                         <div className='stats_right'>
                             <div className='progress_block'>
-                                <span>Completed Courses</span>
+                                <span>Восстановление после травм</span>
                                 <span className='value_progress' style={{width: '75%', "--time": "5s"}}>75%</span>
                                 <div class='progress-bar'>
                                     <div class='progress' style={{maxWidth: '75%', "--time": "5s"}}></div>
                                 </div>
                             </div>
                             <div className='progress_block'>
-                                <span>Completed Courses</span>
+                                <span>Учебные занятия для детей и взрослых</span>
                                 <span className='value_progress' style={{width: '82%', "--time": "5s"}}>82%</span>
                                 <div class='progress-bar'>
                                     <div class='progress' style={{maxWidth: '82%', "--time": "5s"}}></div>
                                 </div>
                             </div>
                             <div className='progress_block'>
-                                <span>Completed Courses</span>
+                                <span>Индивидуальных подход к каждому</span>
                                 <span className='value_progress' style={{width: '78%', "--time": "5s"}}>78%</span>
                                 <div class='progress-bar'>
                                     <div class='progress' style={{maxWidth: '78%', "--time": "5s"}}></div>

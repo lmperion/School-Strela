@@ -3,6 +3,7 @@ import "./Expertise.css"
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { useState,useEffect } from "react";
+import { dataExpertise } from "./data.expertise";
 
 
 export const Expertise = () => {
@@ -16,10 +17,10 @@ export const Expertise = () => {
     return(
         <section className="expertise">
             <div className="expertise_content_left">
-                <h5>Our Expertise</h5>
-                <h2>We Provide The Best Swimming Class</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiu smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud xercitation ullamco .</p>
-                <div className="expertise_content_info">
+                <h5>{dataExpertise.mainHeader}</h5>
+                <h2>{dataExpertise.header}</h2>
+                <p>{dataExpertise.description}</p>
+                {/* <div className="expertise_content_info">
                     <div className="expertise_content_left_stats">
                         <div className="expertise_content_left_circularProgressbar">
                             <CircularProgressbar 
@@ -54,7 +55,7 @@ export const Expertise = () => {
                         <h2>Successful Swimmer</h2>
                         <p>Lorem ipsum dolor sit amet consectet adipiscing elit sed do eiusmod tempor incididunt.</p>
                     </div>
-                </div>
+                </div> */}
                 <a href="#">Show More</a>
             </div>
             <div className="expertise_content_right">

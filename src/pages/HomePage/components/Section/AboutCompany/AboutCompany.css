@@ -12,6 +12,7 @@
 
 .courses  img {
     object-fit: cover;
+    width: 250px;
 }
 
 .courses_description {
@@ -90,7 +91,7 @@
 }
 
 .right_description h2 {
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 20px
 }
 
@@ -108,7 +109,7 @@
     list-style-type: none;
     padding: 0;
     margin-bottom: 0;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .positive_moments li {
@@ -125,6 +126,7 @@
     color: black;
     padding-left: 10px;
     font-weight: 300;
+    width: 100%;
 }
 
 .right_description a {

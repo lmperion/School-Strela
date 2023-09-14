@@ -1,6 +1,10 @@
 import './OurInstructors.css'
 
 import { Col, Container } from 'react-bootstrap'
+import { dataOurInstructors } from './data.OurInstructors'
+
+import Ivan from './../../../img/Ivan.jpg'
+import Artem from './../../../img/Tema.jpg'
 
 
 export const OurInstructors = () => {
@@ -14,32 +18,32 @@ export const OurInstructors = () => {
                             <div className='instructor_left'>
                                 <div className='instructor-img'>
                                     <div className='instructor_overlay' />
-                                    <img src='https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/instructor-of-swimming-CERPTLB.jpg' /> 
+                                    <img src={Ivan} alt='Ivan'/> 
                                 </div>
                                 <div className='instructor_description'>
-                                    <h2>Teddy Saunders</h2>
-                                    <span>CEO Schwimm</span>
+                                    <h2>{dataOurInstructors.Ivan.name}</h2>
+                                    <span>{dataOurInstructors.Ivan.who}</span>
                                 </div>
-                                <ul className='social_list'>Тут будут соц.сети</ul>
+                                <ul className='social_list'>{dataOurInstructors.Ivan.discription}</ul>
                             </div>
                             <div className='instructor-right'>
                                 <div className='instructor-img'>
                                     <div className='instructor_overlay' />
-                                    <img src='https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/instructor-of-swimming-CERPTLB.jpg' /> 
+                                    <img src={Artem} alt='Tema'/> 
                                 </div>
                                 <div className='instructor_description'>
-                                    <h2>Teddy Saunders</h2>
-                                    <span>CEO Schwimm</span>
+                                    <h2>{dataOurInstructors.Artem.name}</h2>
+                                    <span>{dataOurInstructors.Artem.who}</span>
                                 </div>
-                                <ul className='social_list'>Тут будут соц.сети</ul>
+                                <ul className='social_list'>{dataOurInstructors.Artem.discription}</ul>
                             </div>
                         </div>
                     </Col>
                     <Col lg={{span:5}}>
                         <div className='our_instructors_description'>
-                            <h5>Our Instructors</h5>
-                            <h2>Expert Instructors</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco incididunt magna aliqua veniam quis nostrud.</p>
+                            <h5>{dataOurInstructors.mainHeader}</h5>
+                            <h2>{dataOurInstructors.header}</h2>
+                            <p>{dataOurInstructors.description}</p>
                             <span>Request To Join</span>
                             <form className="accept_subscribe" > 
                             <input name="Email" type='email' placeholder="Your Email"  required />

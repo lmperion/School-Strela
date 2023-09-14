@@ -2,6 +2,7 @@ import "./Offer.css"
 
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+import { dataOffer } from "./data.Offer";
 
 
 export const Offer = () => {
@@ -13,20 +14,15 @@ export const Offer = () => {
                     <div className="info_offer">
                         <Col lg={{ span: 7}}>
                             <div className="info_offer_navigation">
-                                <h2>Great Offer</h2>
+                                <h2>{dataOffer.mainHeader}</h2>
                                 <div className="info_offer_list"> 
-                                    <div className="info_offer_panel">
-                                        <a href="#">Swimm Lesson</a>
-                                    </div>
-                                    <div className="info_offer_panel">
-                                        <a href="#">Qualified Place</a>
-                                    </div>
-                                    <div className="info_offer_panel">
-                                        <a href="#">Unique School</a>
-                                    </div>
-                                    <div className="info_offer_panel">
-                                        <a href="#">Great Team</a>
-                                    </div>
+                                    {dataOffer.description.map((item) => {
+                                        return (
+                                            <div className="info_offer_panel">
+                                                <a href="#">{item}</a>
+                                            </div>
+                                        )
+                                    })}
                                 </div>
                             </div>
                         </Col>                    

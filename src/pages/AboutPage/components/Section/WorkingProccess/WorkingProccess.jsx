@@ -2,6 +2,7 @@ import './WorkingProccess.css'
 import ArrowRight from '../../../img/arrow-chemiclab.png'
 
 import { Col, Container } from 'react-bootstrap'
+import { dataWorkingProccess } from './data.WorkingProccess'
 
 
 export const WorkingProccess = () => {
@@ -10,8 +11,8 @@ export const WorkingProccess = () => {
         <section className='working_proccess'>
             <Container>
                 <div className='working_proccess_content'>
-                    <h5>How We Works</h5>
-                    <h2>Our Working Proccess</h2>
+                    <h5>{dataWorkingProccess.mainHeader}</h5>
+                    <h2>{dataWorkingProccess.header}</h2>
                     <div className='works'>
                         <Col lg={{span:3}}>  
                             <div className='works_content works_content_active'>
@@ -41,7 +42,7 @@ export const WorkingProccess = () => {
                                         -386z"/>
                                     </g>
                                 </svg>
-                                <h3>Select Your Courses</h3>
+                                <h3>{dataWorkingProccess.firstStage}</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur elit.</p>
                             </div>
                         </Col>
@@ -94,7 +95,7 @@ export const WorkingProccess = () => {
                                         306 0 70 -90 104 -136 51z"/>
                                     </g>
                                 </svg>
-                                <h3>Select Your Courses</h3>
+                                <h3>{dataWorkingProccess.secondStage}</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur elit.</p>
                             </div>
                         </Col>
@@ -147,7 +148,7 @@ export const WorkingProccess = () => {
                                         20z"/>
                                     </g>
                                     </svg>
-                                <h3>Select Your Courses</h3>
+                                <h3>{dataWorkingProccess.thirdStage}</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur elit.</p>
                             </div>
                         </Col>
@@ -208,7 +209,7 @@ export const WorkingProccess = () => {
                                         230 193 68 19 179 10 245 -20z"/>
                                     </g>
                                 </svg>
-                                <h3>Select Your Courses</h3>
+                                <h3>{dataWorkingProccess.fourthStage}</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur elit.</p>
                             </div>
                         </Col>

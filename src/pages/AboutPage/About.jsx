@@ -15,7 +15,7 @@ export const About = () => {
         <>
             <AboutPromo />
             <AboutCompany />
-            <Stats />
+            {/* <Stats /> */}
             <WorkingProccess />
             <Pricing />
             <Skills />

@@ -12,7 +12,7 @@ export const Course = (props) => {
         <div>
             <CoursePromo  imgPromo={course.imgPromo} title={course.title} />
             <CoursePositive training={course.training} text={course.text} positiveMoments={course.positiveMoments}/>
-            <Lessons lessons={course.lessons}/>
+            <Lessons groups={course.groups}/>
             <Feedback register={register} handleSubmit={handleSubmit} hSubmit={hSubmit} errors={errors}/>
         </div>
     )

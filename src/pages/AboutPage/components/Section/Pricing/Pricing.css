@@ -44,7 +44,7 @@
 }
 
 .pricing_cost h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
     color: white;
     margin: 0;
@@ -120,6 +120,12 @@
     margin-bottom: 20px;
 }
 
+.strong {
+    width: 50px;
+    height: 52px;
+    margin-bottom: 15px;
+}
+
 .pricing_descriprion_info {
     display: flex;
 }
@@ -140,7 +146,7 @@
 
 .info-garante h2,
 .info-support h2 {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
