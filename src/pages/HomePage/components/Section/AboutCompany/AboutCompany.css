@@ -38,6 +38,10 @@
 
 }
 
+ .active_link:hover {
+    color: #349BFF;
+}
+
 .courses_info {
     display: flex;
     margin-top: 40px;

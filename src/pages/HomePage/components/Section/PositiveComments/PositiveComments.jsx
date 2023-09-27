@@ -10,9 +10,9 @@ export const PositiveComments = () => {
     return(
         <section className="positive_comments">
             <Container>
-            <h5>Positive Comments</h5>
-            <h2>Some Quotes From Our Students</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam dolore aliqua.</p>
+            <h5>Наши достижения</h5>
+            <h2>Отзывы и комментарии наших учеников</h2>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam dolore aliqua.</p> */}
             <div className="positive_comments_content">
                 <div className="positive_comments_content_row"> 
                     <Col lg={{ span: 3}}>

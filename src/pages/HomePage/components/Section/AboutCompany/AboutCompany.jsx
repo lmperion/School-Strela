@@ -21,7 +21,9 @@ export const AboutCompany = () => {
                             <div className="courses_description">
                                 <h3>{dataAboutCompany.courses.header}</h3>
                                 <p>{dataAboutCompany.courses.description}</p>
-                                <a href="#">Read More</a>
+                                <div className="active_link">
+                                    <a>Ознакомиться</a>
+                                </div>
                             </div>
                         </div>
                         <div className="courses_info">
@@ -31,7 +33,7 @@ export const AboutCompany = () => {
                                     <h3>{dataAboutCompany.training.left.header}</h3>
                                 </div>
                                 <p>{dataAboutCompany.training.left.description}</p>
-                                <a href="#">Read More</a>
+                                {/* <a href="#">Read More</a> */}
                             </div>
                             <div className="info_instructor">
                                 <div className="info_instructor_header">
@@ -39,7 +41,7 @@ export const AboutCompany = () => {
                                     <h3>{dataAboutCompany.training.right.header}</h3>
                                 </div>
                                 <p>{dataAboutCompany.training.right.description}</p>
-                                <a href="#">Read More</a>
+                                {/* <a href="#">Read More</a> */}
                             </div>
                         </div>
                     </div>
@@ -63,7 +65,7 @@ export const AboutCompany = () => {
                                 })}
                             </ul>
                         </div>
-                        <a href="#">Get Started</a>
+                        <a href="#">Записаться</a>
                     </div>
                 </Col>
             </Container>

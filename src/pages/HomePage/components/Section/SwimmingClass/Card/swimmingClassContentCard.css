@@ -5,7 +5,8 @@
 
 .swimming_class_content_card_header img {
     max-width: 340px;
-    /* height: 357px; */
+    height: 357px;
+    object-fit: cover;
 }
 
 .swimming_class_content_card_header div {

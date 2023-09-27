@@ -43,7 +43,7 @@ export const WorkingProccess = () => {
                                     </g>
                                 </svg>
                                 <h3>{dataWorkingProccess.firstStage}</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur elit.</p> */}
                             </div>
                         </Col>
                         <Col lg={{span:3}}>  
@@ -96,7 +96,7 @@ export const WorkingProccess = () => {
                                     </g>
                                 </svg>
                                 <h3>{dataWorkingProccess.secondStage}</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur elit.</p> */}
                             </div>
                         </Col>
                         <Col lg={{span:3}}>  
@@ -149,7 +149,7 @@ export const WorkingProccess = () => {
                                     </g>
                                     </svg>
                                 <h3>{dataWorkingProccess.thirdStage}</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur elit.</p> */}
                             </div>
                         </Col>
                         <Col lg={{span:3}}>  
@@ -210,7 +210,7 @@ export const WorkingProccess = () => {
                                     </g>
                                 </svg>
                                 <h3>{dataWorkingProccess.fourthStage}</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                                {/* <p>Lorem ipsum dolor sit amet consectetur elit.</p> */}
                             </div>
                         </Col>
                     </div>

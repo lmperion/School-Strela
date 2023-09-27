@@ -29,13 +29,13 @@ function Header(props) {
             <nav>
             <ul className="header_list_navigation">
                 <li className="header_list">
-                    <Link to="/"> Home </Link>
+                    <Link to="/"> Домашняя </Link>
                 </li>
                 <li className="header_list">
-                    <Link to="/about"> About </Link>
+                    <Link to="/about"> О нас </Link>
                 </li>
                 <li className="header_list">
-                    <Link to="/contacts"> Contacts </Link>
+                    <Link to="/contacts"> Контакты </Link>
                 </li>
                 <li className="header_panel_list_arrow">
                     <a href="#" className="header_panel_link">
@@ -53,20 +53,20 @@ function Header(props) {
                           <li><Link to="/course/personal">Персональные</Link></li>
                     </ul>
                 </li>
-                <li className="header_panel_list_arrow">
+                {/* <li className="header_panel_list_arrow">
                     <a href="#" className="header_panel_link">
                         Home
-                        {/* <div> */}
-                            {/* <img src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.0.0/img/angle-arrow-down-white.svg"></img> */}
+                        <div>
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.0.0/img/angle-arrow-down-white.svg"></img>
                             <svg fill="white" height="15px" width="15px"   viewBox="0 0 330 330" >
                                 <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
                             </svg>
-                        {/* </div> */}
+                        </div>
                     </a> 
                     <ul className="drop_panel">
                           <li><a href="#">Какой-то текст</a></li>
                     </ul>
-                </li>
+                </li>    */}
             </ul>
             </nav>
             <div className="social_picture">

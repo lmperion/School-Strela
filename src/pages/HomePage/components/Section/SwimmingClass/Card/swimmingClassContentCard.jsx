@@ -4,7 +4,7 @@ import "./swimmingClassContentCard.css"
 
 export const SwimmingClassContentCard = (props) => {
     
-    const {imgCourse, path} = props
+    const {imgCourse, path, name, price} = props
 
     return (
         <div className="swimming_class_content">
@@ -12,8 +12,8 @@ export const SwimmingClassContentCard = (props) => {
                 <div className="swimming_class_content_card_header">
                     <img src={imgCourse} />
                     <div>
-                        <span>$234.00</span>
-                        <h6>/Person</h6>
+                        <span>{price}</span>
+                        <h6>/тренировка</h6>
                     </div>
                 </div>
                 <div className="swimming_class_content_card_info">
@@ -38,9 +38,9 @@ export const SwimmingClassContentCard = (props) => {
                     </li>
                     </ul>
                 </div>
-                <h2>Beginner Swimmer</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                <Link to={path}>Read More</Link>
+                <h2>{name}</h2>
+                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p> */}
+                <Link to={path}>Подробнее</Link>
             </div>
         </div>
     )

@@ -56,15 +56,15 @@ export const Expertise = () => {
                         <p>Lorem ipsum dolor sit amet consectet adipiscing elit sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div> */}
-                <a href="#">Show More</a>
+                <a href="#">Записаться</a>
             </div>
             <div className="expertise_content_right">
             <div className="expertise_content_right_overlay"></div>
-            <div className="expertise_content_right_content">
+            {/* <div className="expertise_content_right_content">
                 <h4>Ready To Embrace Your Future</h4>
                 <p>Lorem ipsum dolor sit amet consecta tetur adipiscing elit. Utelit tellus luctus nec ullamcorper mattis pulvinar.</p>
                 <a href="#">Read More</a>
-            </div>
+            </div> */}
             </div>
         </section>
     )

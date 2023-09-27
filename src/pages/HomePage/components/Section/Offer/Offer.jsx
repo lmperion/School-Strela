@@ -12,7 +12,7 @@ export const Offer = () => {
             <div className="offer_overlay"/>
             <Container>
                     <div className="info_offer">
-                        <Col lg={{ span: 7}}>
+                        <Col lg={{ span: 12}}>
                             <div className="info_offer_navigation">
                                 <h2>{dataOffer.mainHeader}</h2>
                                 <div className="info_offer_list"> 
@@ -26,7 +26,7 @@ export const Offer = () => {
                                 </div>
                             </div>
                         </Col>                    
-                        <Col lg={{ span: 5}}>        
+                        {/* <Col lg={{ span: 5}}>        
                             <div className="info_offer_stats">
                                 <div className="info_offer_stats_students">
                                     <div className="stats_number">
@@ -43,7 +43,7 @@ export const Offer = () => {
                                     <p className="titte_trainer">Expert Trainer</p>
                                 </div>
                             </div>
-                        </Col>  
+                        </Col>   */}
                     </div>
             </Container>
         </section>

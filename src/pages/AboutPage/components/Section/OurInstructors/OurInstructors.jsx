@@ -44,10 +44,10 @@ export const OurInstructors = () => {
                             <h5>{dataOurInstructors.mainHeader}</h5>
                             <h2>{dataOurInstructors.header}</h2>
                             <p>{dataOurInstructors.description}</p>
-                            <span>Request To Join</span>
+                            <span>Связаться с нами</span>
                             <form className="accept_subscribe" > 
-                            <input name="Email" type='email' placeholder="Your Email"  required />
-                            <button type="submit">Subscribe</button>
+                            <input name="Email" type='email' placeholder="Ваша почта"  required />
+                            <button type="submit">Отправить</button>
                         </form>
                         </div>
                     </Col>

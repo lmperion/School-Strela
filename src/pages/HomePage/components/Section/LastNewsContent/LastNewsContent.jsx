@@ -9,8 +9,8 @@ export const LastNewsContent = () => {
     return(
         <section className="last_news">
             <Container>
-                <h5>Latest News</h5>
-                <h2>Tips & Article</h2>
+                <h5>Последние новости</h5>
+                <h2>Новости и обновления для Вас</h2>
                 <div className="last_news_content">
                     <Col lg={{ span: 4 }}>
                         <div className="last_news_link">

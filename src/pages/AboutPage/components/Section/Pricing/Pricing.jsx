@@ -13,9 +13,9 @@ export const Pricing = () => {
                 <div className='pricing_content'>
                     <Col lg={{span:4}}>
                         <div className='pricing_card'>
-                            <div className='pricing_discount'>
+                            {/* <div className='pricing_discount'>
                                 <span>Disc - 20%</span>
-                            </div>
+                            </div> */}
                             <h3>{dataPricing.personal.header}</h3>
                             <div className='pricing_cost'>
                                 <h2>{dataPricing.personal.cost}</h2>
@@ -33,14 +33,14 @@ export const Pricing = () => {
                                     )
                                 })}
                             </ul>
-                            <a href="#">Get Started</a>
+                            <a href="#">Записаться</a>
                         </div>
                     </Col>
                     <Col lg={{span:4}}>
                         <div className='pricing_card non_premium_card'>
-                            <div className='pricing_discount'>
+                            {/* <div className='pricing_discount'>
                                 <span>Disc - 20%</span>
-                            </div>
+                            </div> */}
                             <h3>{dataPricing.groupe.header}</h3>
                             <div className='pricing_cost'>
                                 <h2>{dataPricing.groupe.cost}</h2>
@@ -58,7 +58,7 @@ export const Pricing = () => {
                                     )
                                 })}
                             </ul>
-                            <a href="#">Get Started</a>
+                            <a href="#">Записаться</a>
                         </div>
                     </Col>
                     <Col lg={{span:4}}>
