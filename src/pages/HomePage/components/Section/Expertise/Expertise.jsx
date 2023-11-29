@@ -17,7 +17,7 @@ export const Expertise = () => {
     return(
         <section className="expertise">
             <div className="expertise_content_left">
-                <h5>{dataExpertise.mainHeader}</h5>
+                {/* <h5>{dataExpertise.mainHeader}</h5> */}
                 <h2>{dataExpertise.header}</h2>
                 <p>{dataExpertise.description}</p>
                 {/* <div className="expertise_content_info">

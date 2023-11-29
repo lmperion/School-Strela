@@ -12,6 +12,7 @@ import noob from './../../../images/noobs.jpg'
 import amatuer from './../../../images/amatuer.jpg'
 import pro from './../../../images/pro.jpg'
 import personal from './../../../images/personal.jpg'
+import split from './../../../images/split.jpg'
 
 
 
@@ -35,6 +36,8 @@ const getImage = (type) => {
         return pro;
       case 'Персональная тренировка':
         return personal;
+      case 'Сплит тренировка':
+        return split;
       default: return ;
     }
   };

@@ -46,6 +46,7 @@
     /* transition: all .5s cubic-bezier(.9,.03,0,.96) .6s; */
     transition: all 0.5s;
     opacity: 1;
+    overflow-y: scroll;
 }
 
 .widget_info_close {

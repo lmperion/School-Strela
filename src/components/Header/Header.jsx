@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./header.css"
 import clsx from "clsx";
+import InstLogo from "./img/instagramLogo.png"
 
 // document.body.onscroll = function() {
 //     if (window.pageYOffset > 100) {
@@ -72,9 +73,9 @@ function Header(props) {
             <div className="social_picture">
                 <ul>
                     <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" /></a></li>
-                    <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" /></a></li>
-                    <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" /></a></li>
-                    <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" /></a></li>
+                    <li><a href="#"><img src={InstLogo} /></a></li>
+                    {/* <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" /></a></li>
+                    <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" /></a></li> */}
                 </ul>
             </div>
         </div>

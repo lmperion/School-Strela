@@ -85,6 +85,10 @@ height: 15px;
     
 }
 
+.footer_info_links_margin {
+    margin: 0 auto;
+}
+
 .quick_links {
     color: black;
     font-size: 22px;
@@ -120,6 +124,10 @@ height: 15px;
     padding: 5px 0px;
     list-style-type: none;
     font-weight: 300;
+}
+.quick_links_item a{
+    color: #212529;
+    text-decoration: none;
 }
 
 .subscribe {

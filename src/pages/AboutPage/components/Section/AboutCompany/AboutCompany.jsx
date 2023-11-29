@@ -2,7 +2,7 @@ import './AboutCompany.css'
 
 import { Col, Container } from 'react-bootstrap'
 
-import Logo from "./../../../img/logo.jpg"
+import Logo from "./../../../img/logoSchool.jpg"
 import { dataAboutCompany } from './data.AboutCompany'
 
 

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 
 import { dataAboutCompany } from "./data.aboutCompany";
-import AdoutCompanyImage from "./../../../img/AdoutCompanyImage.jpg"
+import AdoutCompanyImage from "./../../../img/AdoutCompanyImageNew.png"
 
 
 export const AboutCompany = () => {

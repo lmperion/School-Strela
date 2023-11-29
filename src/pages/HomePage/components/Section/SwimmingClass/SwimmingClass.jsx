@@ -19,13 +19,30 @@ export const SwimmingClass = () => {
                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam dolore aliqua.</p> */}
                 <div className="swimming_class_cards">
                     <Col lg={{span: 4}}>
-                        <SwimmingClassContentCard imgCourse={childrenImg} path={"/course/children"} name={dataСourse.name.children} price={dataСourse.price.children}/>
+                        <SwimmingClassContentCard 
+                            imgCourse={childrenImg} 
+                            path={"/course/children"} 
+                            name={dataСourse.name.children} 
+                            price={dataСourse.price.children} 
+                            infoCourse={dataСourse.group}
+                        />
                     </Col>
                     <Col lg={{span: 4}}>
-                        <SwimmingClassContentCard imgCourse={adultImg} path={"/course/adult"} name={dataСourse.name.adult} price={dataСourse.price.adult}/>
+                        <SwimmingClassContentCard 
+                            imgCourse={adultImg} path={"/course/adult"} 
+                            name={dataСourse.name.adult}
+                            price={dataСourse.price.adult}
+                            infoCourse={dataСourse.group}
+                        />
                     </Col>
                     <Col lg={{span: 4}}>
-                        <SwimmingClassContentCard imgCourse={personalImg} path={"/course/personal"} name={dataСourse.name.personality} price={dataСourse.price.personality}/>
+                        <SwimmingClassContentCard 
+                            imgCourse={personalImg} 
+                            path={"/course/personal"} 
+                            name={dataСourse.name.personality} 
+                            price={dataСourse.price.personality} 
+                            infoCourse={dataСourse.personality}
+                        />
                     </Col>
                 </div>
             </Container>

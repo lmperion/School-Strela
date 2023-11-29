@@ -2,8 +2,8 @@ import "./TypesSwimming.css"
 
 import clsx from "clsx";
 
-import Butterfly from "./../../../img/Butterfly.jpg"
-import OnTheBack from "./../../../img/OnTheBack.jpg"
+import Butterfly from "./../../../img/ButterflyNew.jpg"
+import OnTheBack from "./../../../img/OnTheBackNew.jpeg"
 import Breaststroke from "./../../../img/Breaststroke.png"
 import Crawl from "./../../../img/Crawl.jpg"
 
