@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./header.css"
 import clsx from "clsx";
 import InstLogo from "./img/instagramLogo.png"
-
+import Logo from "./../../pages/AboutPage/img/icon"
 // document.body.onscroll = function() {
 //     if (window.pageYOffset > 100) {
 //         const tagLi=document.querySelectorAll('.header_list')
@@ -24,7 +24,10 @@ function Header(props) {
     return (
       <header className="header">
         <div className="header_logo">
-            <Link to="/"><img src="https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/Logo2-9C2MC69-e1645056314646.png"/></Link>
+            <Link to="/">
+                {/* <img src="https://templatekit.jegtheme.com/schwimm/wp-content/uploads/sites/233/2022/02/Logo2-9C2MC69-e1645056314646.png"/> */}
+            <Logo withSvg={"94px"}/>
+            </Link>
         </div>
         <div className={clsx({["header_navigation"]:true, ["header_navigation_bg"]: scroll})}>
             <nav>

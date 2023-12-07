@@ -12,10 +12,9 @@
     background-color: #132238;
 }
 
-.header_logo img {
-   /* height: auto; */
-   width: 200px;
-   padding: 25px 23px 26px;
+.header_logo {
+   /* width: 115px; */
+   /* padding: 25px 23px 26px; */
 }
 
 .header_navigation {

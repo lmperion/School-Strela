@@ -2,7 +2,7 @@ import './AboutCompany.css'
 
 import { Col, Container } from 'react-bootstrap'
 
-import Logo from "./../../../img/logoSchool.jpg"
+import Logo from "./../../../img/icon"
 import { dataAboutCompany } from './data.AboutCompany'
 
 
@@ -14,7 +14,8 @@ export const AboutCompany = () => {
                 <div className='about_company_content'>
                 <Col lg={{span:4}}>
                     <div className='about_company_left_content_img'>
-                        <img src={Logo}  alt='Logo'/>
+                        {/* <img src={Logo}  alt='Logo'/> */}
+                        <Logo />
                         <div className='about_company_left_content'>
                             <p>{dataAboutCompany.leftContent.description}</p>
                             <h3>{dataAboutCompany.leftContent.founder}</h3>
